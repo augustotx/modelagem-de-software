@@ -8,8 +8,7 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Prioridade|Essencial|
 |Pré-condição|Liberação da Urna para Voto do Eleitor|
 |Pós-condição|Voto do eleitor é computado|
-|Fluxo Principal|1. Eleitor digita número do candidato (ou branco/nulo) desejado na urna<br>2. Urna computa número e retorna informações do candidato (FS-001)<br>3. Eleitor confirma voto<br>4. Urna retorna confirmação<br>5. Loop para seleção de candidato de outro(s) cargo(s)<br>|
-|Fluxo Secundário (FS-001)|1. Urna computa número e retorna "candidato inválido"<br>2. Urna retorna para página de seleção de candidato<br>3. Candidato digita outro número<br>4. Loop até que um candidato válido (ou branco/nulo) seja escolhido<br>|
+|Fluxo Principal|1. Eleitor digita número desejado na urna<br>2. <b>a.</b> Se número for de um candidato válido, urna computa número e retorna informações do candidato<br>2. <b>b.</b> Se número for inválido, urna computa voto nulo<br>2. <b>c.</b> Em caso de voto em branco, urna computa voto em branco<br>3. Eleitor confirma voto<br>4. Urna retorna confirmação<br>5. Loop para seleção de candidato de outro(s) cargo(s)<br>|
 
 |Identificação|UC_liberacao|
 |---|---|

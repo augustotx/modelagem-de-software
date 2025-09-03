@@ -39,9 +39,9 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Prioridade|Essencial|
 |Pré-condição|Votação ocorreu|
 |Pós-condição|Relatório de votação é gerado|
-|Fluxo Principal|1. Administrador requere relatório para o sistema<br>2. 2. Sistema gera relatório com os resultados apresentados em forma de tabelas(FS-002), separados por UEv. Também são contabilizados os votos brancos e nulos, bem como os eleitores ausentes.|
+|Fluxo Principal|1. Administrador requere relatório para o sistema<br>2.Sistema gera relatório com os resultados apresentados em forma de tabelas(FS-002), separados por UEv. Também são contabilizados os votos brancos e nulos, assim como os eleitores ausentes.|
 |Fluxo Secundário (FS-001)|1. Abnormalidade é detectada em algum fator da votação<br>2. Relatório é gerado com erros relatados|
-|Fluxo Secundário (FS-002)|1. Administrador escolhe apresentar relatório em gráficos<br>2. Relatório é gerado com gráficos, separados por UEv. Também são contabilizados os votos brancos e nulos, bem como os eleitores ausentes.|
+|Fluxo Secundário (FS-002)|1. Administrador escolhe apresentar relatório em gráficos<br>2. Relatório é gerado com gráficos, separados por UEv. Também são contabilizados os votos brancos e nulos, assim como os eleitores ausentes.|
 
 
 |Identificação|UC_cadastro|
@@ -51,5 +51,5 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Prioridade|Essencial|
 |Pré-condição|Nenhuma|
 |Pós-condição|Candidato cadastrado no sistema|
-|Fluxo Principal|1. Administrador coloca cargo, nome, apelido, número e fotografia do candidato no sistema (FS-001)<br>2. Candidato é cadastrado com sucesso.|
+|Fluxo Principal|1. Administrador coloca cargo, nome, apelido, número e fotografia do candidato no sistema, a depender da região(FS-001)<br>2. Candidato é cadastrado com sucesso.|
 |Fluxo Secundário (FS-001)|1. Sistema retorna situação fora do normal do candidato<br>2. Administrador não cadastra candidato|

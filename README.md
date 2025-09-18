@@ -1,11 +1,8 @@
 # modelagem-de-software
 Projeto de Modelagem de Software do 6º Semestre (FEI)
-## Diagrama de Casos de Uso
-![Diagrama de Casos de Uso](./resources/img/diagrama.png)
-## Diagrama de Classes
-![Diagrama de Classes](./resources/img/DiagramaClasses.png)
 
-## Casos de Uso:
+## Diagrama de Casos de Uso:
+![Diagrama de Casos de Uso](./resources/img/diagrama.png)
 |Identificação|UC_votacao|
 |---|---|
 |Função|Eleitor vota na urna eletrônica|
@@ -55,3 +52,6 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Pós-condição|Candidato cadastrado no sistema|
 |Fluxo Principal|1. Administrador coloca cargo, nome, apelido, número e fotografia do candidato no sistema, a depender da região(FS-001)<br>2. Candidato é cadastrado com sucesso.|
 |Fluxo Secundário (FS-001)|1. Sistema retorna situação fora do normal do candidato<br>2. Administrador não cadastra candidato|
+
+## Diagrama de Classes
+![Diagrama de Classes](./resources/img/DiagramaClasses.png)

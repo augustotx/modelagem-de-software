@@ -58,8 +58,11 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 
 ## Diagramas de Sequência
 ### UC_votacao
-![Diagrama de Classes](./resources/img/diagrama_sequencia_votacao.png)
+![Diagrama de Sequencia1](./resources/img/diagrama_sequencia_votacao.png)
 ### UC_liberacao
+
 ### UC_situacao
+
 ### UC_relatorio
+![Diagrama de CSequencia4](./resources/img/diagrama_sequencia_relatorio.png)
 ### UC_cadastro

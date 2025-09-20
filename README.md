@@ -55,3 +55,7 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 
 ## Diagrama de Classes
 ![Diagrama de Classes](./resources/img/DiagramaClasses.png)
+
+## Diagramas de Sequência
+### UC_votacao
+![Diagrama de Classes](./resources/img/diagrama_sequencia_votacao.png)

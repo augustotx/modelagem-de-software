@@ -71,3 +71,5 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ## Diagramas de Estados
 ### UEv
 ![Diagrama de Estados1](./resources/img/DiagramaDeEstadosUrna.png)
+### Eleitor
+![Diagrama de Estados2](./resources/img/DiagramaEstEleitor.png)

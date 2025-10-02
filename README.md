@@ -67,3 +67,7 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ![Diagrama de CSequencia4](./resources/img/diagrama_sequencia_relatorio.png)
 ### UC_cadastro
 ![Diagrama de CSequencia4](./resources/img/diagrama_sequencia_cadastro.png)
+
+## Diagramas de Estados
+### UEv
+![Diagrama de Estados1](./resources/img/DiagramaDeEstadosUrna.png)

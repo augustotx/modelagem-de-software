@@ -73,3 +73,5 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ![Diagrama de Estados1](./resources/img/DiagramaDeEstadosUrna.png)
 ### Eleitor
 ![Diagrama de Estados2](./resources/img/DiagramaEstEleitor.png)
+### Relatório
+![Diagrama de Estados3](./resources/img/DiagramaEstRelatorio.png)

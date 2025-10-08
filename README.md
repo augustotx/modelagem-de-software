@@ -75,3 +75,15 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ![Diagrama de Estados2](./resources/img/DiagramaEstEleitor.png)
 ### Relatório
 ![Diagrama de Estados3](./resources/img/DiagramaEstRelatorio.png)
+
+## Diagrama de Atividade
+### UC_votacao
+![Diagrama de Atividade](./resources/img/diagrama_sequencia_votacao.png)
+### UC_liberacao
+![Diagrama de Atividade](./resources/img/diagrama_sequencia_liberacao.png)
+### UC_situacao
+![Diagrama de Atividade](./resources/img/diagrama_sequencia_situacao.png)
+### UC_relatorio
+![Diagrama de Atividade](./resources/img/diagrama_sequencia_relatorio.png)
+### UC_cadastro
+![Diagrama de Atividade](./resources/img/diagrama_sequencia_cadastro.png)

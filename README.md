@@ -49,9 +49,9 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Atores|Administrador|
 |Prioridade|Essencial|
 |Pré-condição|Nenhuma|
-|Pós-condição|Candidato cadastrado no sistema|
-|Fluxo Principal|1. Administrador coloca cargo, nome, apelido, número e fotografia do candidato no sistema, a depender da região(FS-001)<br>2. Candidato é cadastrado com sucesso.|
-|Fluxo Secundário (FS-001)|1. Sistema retorna situação fora do normal do candidato<br>2. Administrador não cadastra candidato|
+|Pós-condição|Gera relatório com todos os candidatos cadastrados|
+|Fluxo Principal|1. Administrador coloca cargo, nome, apelido, número e fotografia do candidato no sistema, a depender da região<br>2. Candidato é cadastrado com sucesso.<br>3. Loop até cadastrar todos os candidatos da Uev|
+
 
 ## Diagrama de Classes
 ![Diagrama de Classes](./resources/img/DiagramaClasses.png)
@@ -65,7 +65,7 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ![Diagrama de Sequencia1](./resources/img/diagrama_sequencia_situacao.png)
 ### UC_relatorio
 ![Diagrama de CSequencia4](./resources/img/diagrama_sequencia_relatorio.png)
-### UC_cadastro
+### UC_cadastro TODO
 ![Diagrama de CSequencia4](./resources/img/diagrama_sequencia_cadastro.png)
 
 ## Diagramas de Estados

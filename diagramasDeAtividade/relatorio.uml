@@ -1,0 +1,17 @@
+@startuml
+title UC_relatorio
+start
+:Administrador requere relatório para o sistema;
+if (Relatório em gráficos?) then (Sim)
+  :Relatório retornará em gráficos;
+else (Não)
+  :Relatório retornará em tabelas;
+endif
+if (Abnormalidade detectada na votação?) then (Sim)
+  :Relatório retornará com abnormalidades relatadas;
+else (Não)
+  :Relatório retornará como esperado;
+endif
+:Sistema gera relatório com os resultados apresentados como especificado;
+stop
+@enduml

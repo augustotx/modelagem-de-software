@@ -1,0 +1,18 @@
+@startuml
+title UC_votacao
+start
+repeat
+  :Eleitor digita número desejado na urna;
+  if (Número de candidato válido?) then (sim)
+    :Urna computa voto em número e retorna informações do candidato;
+  (não    ) elseif (Número inválido?) then (sim)
+    :Urna computa voto nulo;
+  else (Voto em branco)
+    :Urna computa voto em branco;
+  endif
+  :Eleitor confirma voto;
+  :Urna retorna confirmação;
+repeat while (mais cargos para votar?)  is (sim) not (não)
+stop
+
+@enduml

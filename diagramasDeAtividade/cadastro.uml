@@ -1,0 +1,12 @@
+@startuml
+title UC_cadastro
+start
+:Administrador acessa UEg;
+repeat
+  :Administrador insere informações do candidato;
+  :Candidato cadastrado com sucesso;
+repeat while (mais cadastros?) is (sim) not (não)
+:Gera relatório com candidatos;
+stop
+
+@enduml

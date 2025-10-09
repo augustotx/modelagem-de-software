@@ -1,0 +1,14 @@
+@startuml
+title UC_situacao
+start
+:Mesário acessa o sistema;
+:Mesário verifica a situação do eleitor;
+if (Situação normal) then (Sim)
+  :Mesário libera a urna;
+else (Não)
+  :Mesário não libera a urna;
+
+endif
+stop
+
+@enduml

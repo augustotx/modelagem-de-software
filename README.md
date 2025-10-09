@@ -3,6 +3,7 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 
 ## Diagrama de Casos de Uso:
 ![Diagrama de Casos de Uso](./resources/img/diagrama.png)
+
 |Identificação|UC_votacao|
 |---|---|
 |Função|Eleitor vota na urna eletrônica|
@@ -10,16 +11,7 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Prioridade|Essencial|
 |Pré-condição|Liberação da Urna para Voto do Eleitor|
 |Pós-condição|Voto do eleitor é computado|
-|Fluxo Principal|1. Eleitor digita número desejado na urna<br>2. <b>a.</b> Se número for de um candidato válido, urna computa número e retorna informações do candidato<br>2. <b>b.</b> Se número for inválido, urna computa voto nulo<br>2. <b>c.</b> Em caso de voto em branco, urna computa voto em branco<br>3. Eleitor confirma voto<br>4. Urna retorna confirmação<br>5. Loop para seleção de candidato de outro(s) cargo(s)<br>|
-
-|Identificação|UC_liberacao|
-|---|---|
-|Função|Mesário Valida Eleitor para Votar|
-|Atores|Mesário|
-|Prioridade|Essencial|
-|Pré-condição|Normalidade do título do eleitor|
-|Pós-condição|Eleitor é liberado para votar|
-|Fluxo Principal|1. Mesário reseta urna eletrônica para iniciar outra votação|
+|Fluxo Principal|1. Eleitor digita número desejado na urna<br>2. <b>a.</b> Se número for de um candidato válido, urna computa número e retorna informações do candidato<br>2. <b>b.</b> Se número for inválido, urna computa voto nulo<br>2. <b>c.</b> Em caso de voto em branco, urna computa voto em branco<br>3. Eleitor confirma voto<br>4. Urna retorna confirmação<br>5. Loop para seleção de candidato de outro(s) cargo(s)|
 
 |Identificação|UC_situacao|
 |---|---|
@@ -27,7 +19,7 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Atores|Mesário|
 |Prioridade|Essencial|
 |Pré-condição|Eleitor compareceu na eleição|
-|Pós-condição|Mesário está pronto para liberar a urna eletrônica|
+|Pós-condição|Mesário libera a urna eletrônica|
 |Fluxo Principal|1. Mesário verifica no sistema a situação do título do eleitor (FS-001)<br>2. Mesário sobe ao sistema que eleitor compareceu|
 |Fluxo Secundário (FS-001)|1. Situação do título do eleitor não está normal<br>2. Mesário informa a situação e não libera a urna|
 
@@ -78,12 +70,10 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 
 ## Diagrama de Atividade
 ### UC_votacao
-![Diagrama de Atividade](./resources/img/AtividadeSitua.png)
-### UC_liberacao
-![Diagrama de Atividade](./resources/img/AtividadeSitua.png)
+![Diagrama de Atividade da Votação](./resources/img/diagramaDeAtividadeVotacao.png)
 ### UC_situacao
-![Diagrama de Atividade](./resources/img/AtividadeSitua.png)
+![Diagrama de Atividade da Situação](./resources/img/diagramaDeAtividadeSituacao.png)
 ### UC_relatorio
-![Diagrama de Atividade](./resources/img/AtividadeSitua.png)
+![Diagrama de Atividade do Relatório](./resources/img/diagramaDeAtividadeRelatorio.png)
 ### UC_cadastro
-![Diagrama de Atividade](./resources/img/AtividadeSitua.png)
+![Diagrama de Atividade do Cadastro](./resources/img/diagramaDeAtividadeCadastro.png)

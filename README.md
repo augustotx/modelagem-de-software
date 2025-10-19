@@ -75,3 +75,6 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ![Diagrama de Atividade do Relatório](./resources/img/diagramaDeAtividadeRelatorio.png)
 ### UC_cadastro
 ![Diagrama de Atividade do Cadastro](./resources/img/diagramaDeAtividadeCadastro.png)
+
+## Diagrama de Componentes
+![Diagrama de Componentes](./resources/img/diagrama_componentes.png)

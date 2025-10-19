@@ -1,0 +1,33 @@
+@startuml
+title Diagrama de Componentes
+
+package "UEg - Unidade de Gerenciamento" {
+    [Interface Administrador]
+    [Cadastro]
+    [Relatório]
+    [Comunicação UEg]
+    [Banco de Dados]
+
+    [Interface Administrador] --> [Cadastro]
+    [Interface Administrador] --> [Relatório]
+
+    [Cadastro] --> [Comunicação UEg]
+    [Relatório] --> [Comunicação UEg]
+    [Comunicação UEg] --> [Banco de Dados]
+}
+package "UEv - Unidade de Votação" {
+    [Interface Eleitor]
+    [Interface Mesário]
+    [Votação]
+    [Validação]
+    [Comunicação UEv]
+
+    [Interface Eleitor] --> [Votação]
+    [Interface Mesário] --> [Validação]
+    [Validação] --> [Comunicação UEv]
+    [Votação] --> [Comunicação UEv]
+}
+' Comunicação entre UEg e UEv
+[Comunicação UEv] <--> [Comunicação UEg]
+
+@enduml

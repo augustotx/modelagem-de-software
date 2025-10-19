@@ -1,0 +1,10 @@
+@startuml
+actor Administrador
+participant Sistema
+
+loop Cadastro de todos os candidatos
+    Administrador -> Sistema: Informa cargo, nome, apelido,\nnúmero e fotografia do candidato
+    Sistema -> Administrador: Confirma cadastro realizado com sucesso
+
+end
+@enduml

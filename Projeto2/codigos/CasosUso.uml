@@ -1,0 +1,14 @@
+@startuml
+actor :Usuário Master: as UM
+actor :Recepcionista: as Re
+actor :Usuário: as UC
+actor :Elevador: as Eleve
+UM --> (Gerenciar usuários)
+UC --> (Selecionar andar)
+Eleve --> (Locomover por andares)
+Eleve --> (Controlar nível de carga)
+Eleve --> (Reconhecer rostos VIP)
+Re --> (Cadastrar hóspedes VIP)
+
+
+@enduml

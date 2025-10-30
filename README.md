@@ -4,46 +4,60 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ## Diagrama de Casos de Uso:
 ![Diagrama de Casos de Uso](./resources/img/CasosUsoProjeto2.png)
 
-|Identificação|UC_votacao|
+|Identificação|UC_gerenciar|
 |---|---|
-|Função|Eleitor vota na urna eletrônica|
-|Atores|Eleitor, Urna Eletrônica|
-|Prioridade|Essencial|
-|Pré-condição|Liberação da Urna para Voto do Eleitor|
-|Pós-condição|Voto do eleitor é computado|
-|Fluxo Principal|1. Eleitor digita número desejado na urna<br>2. <b>a.</b> Se número for de um candidato válido, urna computa número e retorna informações do candidato<br>2. <b>b.</b> Se número for inválido, urna computa voto nulo<br>2. <b>c.</b> Em caso de voto em branco, urna computa voto em branco<br>3. Eleitor confirma voto<br>4. Urna retorna confirmação<br>5. Loop para seleção de candidato de outro(s) cargo(s)|
+|Função|Gerencia Usuários do Sistema de Controle|
+|Atores||
+|Prioridade||
+|Pré-condição||
+|Pós-condição||
+|Fluxo Principal||
 
-|Identificação|UC_situacao|
+|Identificação|UC_Selecionar|
 |---|---|
-|Função|Mesário verifica a situação do eleitor|
-|Atores|Mesário|
-|Prioridade|Essencial|
-|Pré-condição|Eleitor compareceu na eleição|
-|Pós-condição|Mesário libera a urna eletrônica|
-|Fluxo Principal|1. Mesário verifica no sistema a situação do título do eleitor (FS-001)<br>2. Mesário sobe ao sistema que eleitor compareceu|
-|Fluxo Secundário (FS-001)|1. Situação do título do eleitor não está normal<br>2. Mesário informa a situação e não libera a urna|
+|Função||
+|Atores||
+|Prioridade||
+|Pré-condição||
+|Pós-condição||
+|Fluxo Principal||
 
-|Identificação|UC_relatorio|
+|Identificação|UC_Cadastrar|
+|---|---||Função|Cadastrar hóspede VIP no sistema|
+|Atores|Recepcionista|
+|Prioridade|Essencial|
+|Pré-condição|Check-in de hóspede VIP|
+|Pós-condição|Hóspede VIP cadastrado com sucesso|
+|Fluxo Principal|1. Recepcionista abre página de check-in de VIP.<br>2. Recepcionista escreve e envia informações do hóspede no sistema (FS-001)<br>3. Sistema retorna confirmação de cadastro|
+|Fluxo Secundário (FS-001))|1. Sistema retorna erro e aponta quais campos de cadastro estão errados<br>2. Recepcionista corrige erros e envia novamente|
+
+|Identificação|UC_Controlar|
 |---|---|
-|Função|Administrador gera relatório de votação|
-|Atores|Administrador|
+|Função|Controlar Nível de Carga|
+|Atores|Elevador|
 |Prioridade|Essencial|
-|Pré-condição|Votação ocorreu|
-|Pós-condição|Relatório de votação é gerado|
-|Fluxo Principal|1. Administrador requere relatório para o sistema<br>2.Sistema gera relatório com os resultados apresentados em forma de tabelas(FS-002), separados por UEv. Também são contabilizados os votos brancos e nulos, assim como os eleitores ausentes.|
-|Fluxo Secundário (FS-001)|1. Abnormalidade é detectada em algum fator da votação<br>2. Relatório é gerado com erros relatados|
-|Fluxo Secundário (FS-002)|1. Administrador escolhe apresentar relatório em gráficos<br>2. Relatório é gerado com gráficos, separados por UEv. Também são contabilizados os votos brancos e nulos, assim como os eleitores ausentes.|
+|Pré-condição|Elevador detecta peso acima do limite|
+|Pós-condição|Elevador retorna a operação normal|
+|Fluxo Principal|1. Elevador emite sinal de aviso<br>2. Elevador aguarda parado até que o peso carregado esteja abaixo do limite<br>3. Elevador encerra o sinal de aviso|
 
-
-|Identificação|UC_cadastro|
+|Identificação|UC_Locomover|
 |---|---|
-|Função|Administrador cadastra candidato no sistema de votação|
-|Atores|Administrador|
+|Função|Locomoção do Elevador|
+|Atores|Elevador|
 |Prioridade|Essencial|
-|Pré-condição|Nenhuma|
-|Pós-condição|Gera relatório com todos os candidatos cadastrados|
-|Fluxo Principal|1. Administrador coloca cargo, nome, apelido, número e fotografia do candidato no sistema, a depender da região<br>2. Candidato é cadastrado com sucesso.<br>3. Loop até cadastrar todos os candidatos da Uev|
+|Pré-condição|Elevador recebe sinal de chamada de um andar diferente do atual|
+|Pós-condição|Elevador chega no andar de destino|
+|Fluxo Principal|1. Elevador fecha as portas<br>2. Elevador anda até andar de destino (FS-001)|
+|Fluxo Secundário (FS-001)|1. Elevador detecta abnormalidade<br>2. Elevador para no andar mais pŕoximo<br>3. Elevador abre as portas|
 
+|Identificação|UC_Reconhecer|
+|---|---||Função|Reconhecer faces de hóspedes VIP|
+|Atores|Elevador|
+|Prioridade|Essencial|
+|Pré-condição|Câmera detecta pessoa|
+|Pós-condição|Elevador leva hópede VIP até o andar selecionado|
+|Fluxo Principal|1. Hópede revela face para a câmera<br>2. Elevador retorna confirmação e inicia locomoção até o andar desejado (FS-001)|
+|Fluxo Secundário (FS-001)|1. Hóspede detectado não é VIP<br>2. Elevador continua com funções normais|
 
 ## Diagrama de Classes
 ![Diagrama de Classes](./resources/img/DiagramaClasses.png)

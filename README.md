@@ -23,7 +23,8 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Fluxo Principal||
 
 |Identificação|UC_Cadastrar|
-|---|---||Função|Cadastrar hóspede VIP no sistema|
+|---|---|
+|Função|Cadastrar hóspede VIP no sistema|
 |Atores|Recepcionista|
 |Prioridade|Essencial|
 |Pré-condição|Check-in de hóspede VIP|

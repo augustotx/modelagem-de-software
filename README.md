@@ -4,7 +4,7 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ## Diagrama de Casos de Uso:
 ![Diagrama de Casos de Uso](./resources/img/CasosUsoProjeto2.png)
 
-|Identificação|UC_gerenciar|
+|Identificação|UC_Gerenciar|
 |---|---|
 |Função|Gerencia Usuários do Sistema de Controle|
 |Atores| Usuário Master|

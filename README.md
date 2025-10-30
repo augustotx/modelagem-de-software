@@ -2,7 +2,7 @@
 Projeto de Modelagem de Software do 6º Semestre (FEI)
 
 ## Diagrama de Casos de Uso:
-![Diagrama de Casos de Uso](./resources/img/diagrama.png)
+![Diagrama de Casos de Uso](./resources/img/CasosUsoProjeto2.png)
 
 |Identificação|UC_votacao|
 |---|---|

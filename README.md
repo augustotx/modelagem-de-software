@@ -7,20 +7,21 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Identificação|UC_gerenciar|
 |---|---|
 |Função|Gerencia Usuários do Sistema de Controle|
-|Atores||
-|Prioridade||
-|Pré-condição||
-|Pós-condição||
-|Fluxo Principal||
+|Atores| Usuário Master|
+|Prioridade|Essencial|
+|Pré-condição| Usuário precisa de uma autorização|
+|Pós-condição|O usuário tem nível de autorização desejado|
+|Fluxo Principal|1. O usuário envia uma requisição de autorização<br>2. Usuário master avalia requisição (FS-001)<br>3. Usuário master aprova troca de nível de autorização no sistema|
+|Fluxo Secundário (FS-001))|1. Usuário master não concede autorização e encerra o processo|
 
 |Identificação|UC_Selecionar|
 |---|---|
-|Função||
-|Atores||
-|Prioridade||
-|Pré-condição||
-|Pós-condição||
-|Fluxo Principal||
+|Função|Seleciona o andar|
+|Atores|Usuário|
+|Prioridade|Essencial|
+|Pré-condição|O usuário deseja usar o elevador|
+|Pós-condição|Elevador abre a porta para o usuário entrar|
+|Fluxo Principal|1. O usuário seleciona o andar desejado na botoeira externa<br> 2. O elevador se locomove (US_Locomover) até o andar do usuário|
 
 |Identificação|UC_Cadastrar|
 |---|---|

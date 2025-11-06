@@ -53,7 +53,8 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Fluxo Secundário (FS-001)|1. Elevador detecta abnormalidade<br>2. Elevador para no andar mais pŕoximo<br>3. Elevador abre as portas|
 
 |Identificação|UC_Reconhecer|
-|---|---||Função|Reconhecer faces de hóspedes VIP|
+|---|---|
+|Função|Reconhecer faces de hóspedes VIP|
 |Atores|Elevador|
 |Prioridade|Essencial|
 |Pré-condição|Câmera detecta pessoa|

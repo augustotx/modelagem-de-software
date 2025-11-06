@@ -1,0 +1,40 @@
+@startuml
+class Elevador {
+    int andarAtual
+    int destino
+    int peso
+    int limite
+    boolean PesoCarga()
+    boolean Reconhecimento()
+    void Locomover()
+    int MostrarAndar()
+    boolean AbrirPortas()
+    boolean EstaNoLimite()
+    boolean Emergencia()
+}
+
+class Recepcionista{
+    Usuario Cadastro()
+}
+
+class Usuario{
+    boolean VIP
+    string nome
+    string telefone
+    string email
+    int NivelAutorizacao
+    void ChamarElevador()
+    void AtivarBotaoEmergencia()
+}
+
+class UsuarioMaster{
+    int GerenciarAutoridade()
+    void ControlarElevador()
+}
+
+UsuarioMaster "1"o--"n" Usuario :Gerencia 
+Recepcionista "1"o--"n" Usuario: Cadastra
+Usuario "1"o--"1" Elevador: Chama
+UsuarioMaster "1"o--"n" Elevador: Controla
+
+@enduml

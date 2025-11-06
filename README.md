@@ -63,7 +63,7 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Fluxo Secundário (FS-001)|1. Hóspede detectado não é VIP<br>2. Elevador continua com funções normais|
 
 ## Diagrama de Classes
-![Diagrama de Classes](./resources/img/DiagramaClasses.png)
+![Diagrama de Classes](./resources/img/diagrama_classes_p2.png)
 
 ## Diagramas de Sequência
 ### UC_votacao

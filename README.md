@@ -7,7 +7,7 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Identificação|UC_Gerenciar|
 |---|---|
 |Função|Gerencia Usuários do Sistema de Controle|
-|Atores| Usuário Master|
+|Atores| Usuário Master, Usuário|
 |Prioridade|Essencial|
 |Pré-condição| Usuário precisa de uma autorização|
 |Pós-condição|O usuário tem nível de autorização desejado|

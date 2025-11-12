@@ -26,6 +26,18 @@ stop
 @enduml
 
 @startuml
+title UC_Controlar
+start
+:Elevador detecta peso acima do limite;
+repeat
+:Elevador emite sinal de aviso;
+:Elevador aguarda parado;
+repeat while (Peso ainda esta acima do limite) is (sim) not (não)
+:Elevador volta ao habitual;
+stop
+@enduml
+
+@startuml
 title UC_Locomover
 start
 :Elevador recebe sinal de chamada para um andar diferente do atual;
@@ -40,3 +52,4 @@ endif
 stop
 
 @enduml
+

@@ -42,3 +42,18 @@ else Elevador está no mesmo andar do usuário
     Elevador -> Usuário: AbrirPortas()
 end
 @enduml
+
+@startuml
+title UC_Locomover
+
+actor Elevador
+Elevador --> Elevador: AbrirPortas()
+Elevador --> Elevador: Locomover()
+alt Abnormalidade detectada
+    Elevador-->Elevador: Emergencia()
+else if Usuário aperta botão de emergência
+    Elevador --> Elevador: Emergencia()
+else if Incêndio detectado
+    Elevador --> Elevador: Emergencia()
+end
+@enduml

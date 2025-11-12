@@ -68,12 +68,6 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ![Diagrama de Classes](./resources/img/diagrama_classes_p2.png)
 
 ## Diagramas de Sequência
-### UC_votacao
-![Diagrama de Sequencia ](./resources/img/diagrama_sequencia_votacao.png)
-### UC_situacao
-![Diagrama de Sequencia1](./resources/img/diagrama_sequencia_situacao.png)
-### UC_relatorio
-![Diagrama de CSequencia4](./resources/img/diagrama_sequencia_relatorio.png)
 ### UC_Reconhecer 
 ![Diagrama de CSequencia Reconhecimento](./resources/img/SequenciaReconhecer.png)
 
@@ -99,4 +93,4 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ![Diagrama de Atividade de Reconhecer](./resources/img/AtividadeReconhecer.png)
 
 ## Diagrama de Componentes
-![Diagrama de Componentes](./resources/img/diagrama_componentes.png)
+![Diagrama de Componentes](./resources/img/Componentes.png)

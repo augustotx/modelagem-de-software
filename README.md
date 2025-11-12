@@ -51,7 +51,7 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Prioridade|Essencial|
 |Pré-condição|Elevador recebe sinal de chamada de um andar diferente do atual|
 |Pós-condição|Elevador abre suas portas|
-|Fluxo Principal|1. Elevador fecha as portas<br>2. Elevador anda até andar de destino (FS-001)|
+|Fluxo Principal|1. Elevador fecha as portas<br>2. Elevador anda até andar de destino (FS-001)<br>3. Elevador chega ao andar de destino|
 |Fluxo Secundário (FS-001)|1. Elevador detecta abnormalidade<br>2. Elevador para no andar mais pŕoximo<br>3. Elevador abre as portas|
 
 |Identificação|UC_Reconhecer|
@@ -89,8 +89,8 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ![Diagrama de Atividade de Gerenciar](./resources/img/AtividadesGerenciar.png)
 ### UC_Selecionar
 ![Diagrama de Atividade da Selecionar](./resources/img/AtividadeSelecionar.png)
-### UC_relatorio
-![Diagrama de Atividade do Relatório](./resources/img/diagramaDeAtividadeRelatorio.png)
+### UC_Locomover
+![Diagrama de Atividade de Locomover](./resources/img/AtividadeLocomover.png)
 ### UC_cadastro
 ![Diagrama de Atividade do Cadastro](./resources/img/diagramaDeAtividadeCadastro.png)
 

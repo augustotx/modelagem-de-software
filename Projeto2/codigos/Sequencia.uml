@@ -1,0 +1,12 @@
+@startuml
+title UC_Reconhecer
+actor Elevador
+participant Usuário
+Usuário -> Elevador: Mostra o rosto para a câmera
+Elevador -> Usuário: Verifica se Usuário é VIP(Reconhecimento())
+alt Usuário é VIP
+    Elevador -> Usuário: Leva o usuário para os andares VIP
+else Usuário não é VIP
+    Elevador -> Usuário: Elevador funciona normalmente
+end
+@enduml

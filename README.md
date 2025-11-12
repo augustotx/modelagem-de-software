@@ -75,7 +75,7 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 
 ## Diagramas de Estados
 ### Elevador
-![Diagrama de Estados1](./resources/img/EstadosElevador.png)
+![Diagrama de Estados1](./resources/img/EstadosElevador2.png)
 ### Usuário
 ![Diagrama de Estados2](./resources/img/EstadosUsuario.png)
 

@@ -1,0 +1,14 @@
+@startuml
+title UC_Gerenciar
+start
+:Usuário envia requisição de autorização;
+:Usuário master avalia requisição;
+if (Deu autorização?) then (Sim)
+  :Usuário master aprova troca de nível de autorização no sistema;
+  : Usuário tem nível de autorização desejado;
+else (Não)
+  :Usuário master não concede autorização e encerra o processo;
+endif
+stop
+
+@enduml

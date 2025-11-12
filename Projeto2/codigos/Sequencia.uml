@@ -29,3 +29,16 @@ else Usuário não é VIP
     Elevador -> Usuário: Elevador funciona normalmente
 end
 @enduml
+
+@startuml
+title UC_Selecionar
+
+actor Elevador
+actor Usuário   
+Usuário -> Elevador: ChamarElevador()
+alt Elevador está em andar diferente do usuário
+    Usuário -> Elevador: Sinal emitido para o elevador 
+else Elevador está no mesmo andar do usuário
+    Elevador -> Usuário: AbrirPortas()
+end
+@enduml

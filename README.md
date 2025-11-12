@@ -76,12 +76,9 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ![Diagrama de CSequencia4](./resources/img/diagrama_sequencia_cadastro.png)
 
 ## Diagramas de Estados
-### UEv
-![Diagrama de Estados1](./resources/img/DiagramaDeEstadosUrna.png)
-### Eleitor
-![Diagrama de Estados2](./resources/img/DiagramaEstEleitor.png)
-### Relatório
-![Diagrama de Estados3](./resources/img/DiagramaEstRelatorio.png)
+### Elevador
+![Diagrama de Estados1](./resources/img/EstadosElevador.png)
+
 
 ## Diagrama de Atividade
 ### UC_votacao

@@ -1,11 +1,22 @@
 @startuml
-state "Em Movimento" as Mexendo
+state "Parado com Portas abertas" as PorPA
+state "Parado com Portas fechadas" as PPF
+state Subindo
+state Descendo
 title Elevador
-[*] -left-> Parado 
-Parado -down-> Mexendo : Usuário chamou elevador
-Mexendo -right-> Parado: Usuário apertou botão de emergência
-Mexendo -left-> Parado: Excedeu limite de carga
-Mexendo -left-> Parado: Chegou no andar 
+[*] -left-> PPF
+PPF --> Subindo: Usuário em andar superior chamou o elevador
+PPF --> Descendo: Usuário em andar inferior chamou o elevador
+PPF --> PorPA: Usuário em andar igual chamou o elevador
+PPF --> Subindo: Usuário quer subir
+PPF --> Descendo: Usuário quer descer
+PPF --> PorPA: Elevador chegou no andar desejado
+Subindo --> Descendo: Situação de incêndio
+Descendo --> PPF: Elevador chegou no andar desejado
+Subindo --> PPF: Chegou no andar desejado
+Descendo --> PPF: Elevador excedeu limite de carga
+Subindo --> PPF: Elevador excedeu limite de carga
+
 @enduml
 
 @startuml

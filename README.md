@@ -51,8 +51,10 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Prioridade|Essencial|
 |Pré-condição|Elevador recebe sinal de chamada de um andar diferente do atual|
 |Pós-condição|Elevador abre suas portas|
-|Fluxo Principal|1. Elevador fecha as portas<br>2. Elevador anda até andar de destino (FS-001)<br>3. Elevador chega ao andar de destino|
+|Fluxo Principal|1. Elevador fecha as portas<br>2. Elevador anda até andar de destino (FS-001)(FS-002)(FS-003)<br>3. Elevador chega ao andar de destino|
 |Fluxo Secundário (FS-001)|1. Elevador detecta abnormalidade<br>2. Elevador para no andar mais pŕoximo<br>3. Elevador abre as portas|
+|Fluxo Secundário (FS-002)|1. Usuário de dentro do elevador aperta o botão de emergência<br>2. Elevador para no andar mais pŕoximo<br>3. Elevador abre as portas|
+|Fluxo Secundário (FS-003)|1. É detectada uma situação de incendio<br>2. Elevador se direciona para o térreo<br>3. Elevador abre as portas|
 
 |Identificação|UC_Reconhecer|
 |---|---|

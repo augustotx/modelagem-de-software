@@ -69,3 +69,19 @@ stop
 
 @enduml
 
+@startuml
+title UC_Reconhecer
+start
+:Usuário revela face para a câmera;
+if (Usuário é VIP?) then (Sim)
+  : Elevador retorna confirmação e inicia locomoção até o andar desejado;
+else (Não)
+  :Elevador continua com funções normais;
+endif
+
+
+
+
+stop
+@enduml
+

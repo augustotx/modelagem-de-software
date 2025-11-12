@@ -18,7 +18,9 @@ title UC_Selecionar
 start
 :Usuário seleciona andar desejado na botoeira externa;
 :Sinal de chamada para o elevador é emitido;
-
+if(Elevador já está no andar do usuário?) then (Sim)
+   :Portas do elevador se abrem;
+end if
 
 stop
 @enduml

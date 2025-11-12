@@ -24,7 +24,23 @@ end if
 
 stop
 @enduml
+@startuml
+title UC_Cadastrar 
+start
+:Recepcionista abre página de check-in de VIP;
+repeat
+:Recepcionista escreve e envia informações do hóspede no sistema;
+if (Informações são aceitas?) then (Sim)
+  :Sistema retorna confirmação de cadastro;
+else (Não)
+  :Sistema reporta erro e aponta quais campos de cadastro estão errados;
+endif
+repeat while(Informações erradas?) is (Sim) not (Não)
 
+
+
+stop
+@enduml
 @startuml
 title UC_Controlar
 start

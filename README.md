@@ -78,6 +78,9 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ![Diagrama de CSequencia Reconhecimento](./resources/img/SequenciaReconhecer2.png)
 ### UC_Selecionar
 ![Diagrama de CSequencia Reconhecimento](./resources/img/SequenciaSelecionar.png)
+### UC_Controlar
+![Diagrama de CSequencia controle](./resources/img/SequenciaControlar.png)
+
 ## Diagramas de Estados
 ### Elevador
 ![Diagrama de Estados1](./resources/img/EstadosElevador2.png)

@@ -10,7 +10,6 @@ else (Não)
   :Usuário master não concede autorização e encerra o processo;
 endif
 stop
-
 @enduml
 
 @startuml
@@ -21,9 +20,9 @@ start
 if(Elevador já está no andar do usuário?) then (Sim)
    :Portas do elevador se abrem;
 end if
-
 stop
 @enduml
+
 @startuml
 title UC_Cadastrar 
 start
@@ -36,11 +35,9 @@ else (Não)
   :Sistema reporta erro e aponta quais campos de cadastro estão errados;
 endif
 repeat while(Informações erradas?) is (Sim) not (Não)
-
-
-
 stop
 @enduml
+
 @startuml
 title UC_Controlar
 start
@@ -59,14 +56,21 @@ start
 :Elevador recebe sinal de chamada para um andar diferente do atual;
 :Elevador fecha portas;
 :Elevador anda até o andar de destino;
-if (Houve alguma abnormalidade detectada?) then (Sim)
-  :Elevador para no andar mais próximo;
+if (Incêndio detectado?) then (Sim)
+  :Elevador é direcionado para o térreo;
 else (Não)
-  :Elevador chega no andar de destino;
+    if(Usuário apertou o botão de emergência?) then (Sim)
+        :Elevador vai para o andar mais próximo;
+    else(Não)
+        if(Alguma outra abnormalidade foi detectada?) then (Sim)
+            :Elevador vai para o andar mais próximo;
+        else(Não)
+            :Elevador chega no andar de destino;
+endif
+endif
 endif
 :Elevador abre portas;
 stop
-
 @enduml
 
 @startuml
@@ -78,10 +82,6 @@ if (Usuário é VIP?) then (Sim)
 else (Não)
   :Elevador continua com funções normais;
 endif
-
-
-
-
 stop
 @enduml
 

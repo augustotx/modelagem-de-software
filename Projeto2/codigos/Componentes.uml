@@ -1,0 +1,7 @@
+@startuml
+
+[Gerenciamento dos elevadores]
+[Gerenciamento dos usuários]
+[Gerenciamento dasBotoeiras (totem)]
+
+@enduml

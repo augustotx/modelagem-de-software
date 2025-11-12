@@ -17,11 +17,13 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Identificação|UC_Selecionar|
 |---|---|
 |Função|Seleciona o andar|
-|Atores|Usuário|
+|Atores|Usuário, Elevador|
 |Prioridade|Essencial|
 |Pré-condição|O usuário deseja usar o elevador|
-|Pós-condição|Elevador abre a porta para o usuário entrar|
-|Fluxo Principal|1. O usuário seleciona o andar desejado na botoeira externa<br> 2. O elevador se locomove (US_Locomover) até o andar do usuário|
+|Pós-condição|Elevador se locomove para o andar do usuário|
+|Fluxo Principal|1. O usuário seleciona o andar desejado na botoeira externa<br> 2. É emitido um sinal para o elevador|
+|Fluxo Secundário(FS-001)|1. O elevador já está no andar onde se encontra o usuário<br> 2. A porta do elevador se abre|
+
 
 |Identificação|UC_Cadastrar|
 |---|---|
@@ -48,7 +50,7 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 |Atores|Elevador|
 |Prioridade|Essencial|
 |Pré-condição|Elevador recebe sinal de chamada de um andar diferente do atual|
-|Pós-condição|Elevador chega no andar de destino|
+|Pós-condição|Elevador abre suas portas|
 |Fluxo Principal|1. Elevador fecha as portas<br>2. Elevador anda até andar de destino (FS-001)|
 |Fluxo Secundário (FS-001)|1. Elevador detecta abnormalidade<br>2. Elevador para no andar mais pŕoximo<br>3. Elevador abre as portas|
 

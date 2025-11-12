@@ -7,3 +7,13 @@ Mexendo -right-> Parado: Usuário apertou botão de emergência
 Mexendo -left-> Parado: Excedeu limite de carga
 Mexendo -left-> Parado: Chegou no andar 
 @enduml
+
+@startuml
+title Usuários
+state "Não cadastrado" as NC
+[*] -left-> NC 
+NC -down-> Cadastrado : Recepcionista cadastra usuário
+Cadastrado -right-> VIP : Recepcionista marca usuário como VIP
+VIP --> [*]
+Cadastrado --> [*] 
+@enduml

@@ -1,4 +1,16 @@
 @startuml
+title UC_Gerenciar
+actor Usuario_Master as m
+participant Usuario as u
+u -> m: Requisita autorização;
+alt requisição aprovada
+m -> u: GerenciarAutoridade();
+else requisição reprovada
+m -> u: Requisição foi reprovada
+end
+@enduml
+
+@startuml
 title UC_Reconhecer
 actor Elevador
 participant Usuário   

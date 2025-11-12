@@ -1,0 +1,9 @@
+@startuml
+state "Em Movimento" as Mexendo
+title Elevador
+[*] -left-> Parado 
+Parado -down-> Mexendo : Usuário chamou elevador
+Mexendo -right-> Parado: Usuário apertou botão de emergência
+Mexendo -left-> Parado: Excedeu limite de carga
+Mexendo -left-> Parado: Chegou no andar 
+@enduml

@@ -95,8 +95,8 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ![Diagrama de Atividade de Controlar](./resources/img/AtividadeControle.png)
 ### UC_Locomover
 ![Diagrama de Atividade de Locomover](./resources/img/AtividadeLocomover.png)
-### UC_cadastro
-![Diagrama de Atividade do Cadastro](./resources/img/diagramaDeAtividadeCadastro.png)
+### UC_Reconhecer
+![Diagrama de Atividade de Reconhecer](./resources/img/AtividadeReconhecer.png)
 
 ## Diagrama de Componentes
 ![Diagrama de Componentes](./resources/img/diagrama_componentes.png)

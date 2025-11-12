@@ -90,7 +90,9 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 ### UC_Selecionar
 ![Diagrama de Atividade da Selecionar](./resources/img/AtividadeSelecionar2.png)
 ### UC_Cadastrar
-![Diagrama de Atividade da Selecionar](./resources/img/AtividadeCadastrar.png)
+![Diagrama de Atividade da Cadastrar](./resources/img/AtividadeCadastrar.png)
+### UC_Controlar
+![Diagrama de Atividade de Controlar](./resources/img/AtividadeControle.png)
 ### UC_Locomover
 ![Diagrama de Atividade de Locomover](./resources/img/AtividadeLocomover.png)
 ### UC_cadastro

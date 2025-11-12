@@ -24,3 +24,19 @@ end if
 
 stop
 @enduml
+
+@startuml
+title UC_Locomover
+start
+:Elevador recebe sinal de chamada para um andar diferente do atual;
+:Elevador fecha portas;
+:Elevador anda até o andar de destino;
+if (Houve alguma abnormalidade detectada?) then (Sim)
+  :Elevador para no andar mais próximo;
+else (Não)
+  :Elevador chega no andar de destino;
+endif
+:Elevador abre portas;
+stop
+
+@enduml

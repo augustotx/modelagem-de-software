@@ -83,8 +83,8 @@ Projeto de Modelagem de Software do 6º Semestre (FEI)
 
 
 ## Diagrama de Atividade
-### UC_votacao
-![Diagrama de Atividade da Votação](./resources/img/diagramaDeAtividadeVotacao.png)
+### UC_Gerenciar
+![Diagrama de Atividade de Gerenciar](./resources/img/AtividadesGerenciar.png)
 ### UC_situacao
 ![Diagrama de Atividade da Situação](./resources/img/diagramaDeAtividadeSituacao.png)
 ### UC_relatorio

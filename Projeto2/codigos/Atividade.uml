@@ -12,3 +12,13 @@ endif
 stop
 
 @enduml
+
+@startuml
+title UC_Selecionar
+start
+:Usuário seleciona andar desejado na botoeira externa;
+:Sinal de chamada para o elevador é emitido;
+
+
+stop
+@enduml
